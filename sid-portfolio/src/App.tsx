@@ -1,5 +1,6 @@
 import './App.css'
 import { AboutMe } from './components/AboutMe/AboutMe'
+import { ContactPage } from './components/ContactPage/ContactPage'
 import { NavBar } from './components/NavBar/NavBar'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       </div>
       <title>Sid's Portfolio </title>
       <AboutMe/>
+      <ContactPage/>
     </>
   )
 }
