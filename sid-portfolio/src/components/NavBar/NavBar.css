@@ -1,0 +1,9 @@
+.top-nav-links {
+    display: flex;
+    min-width: 100%;
+}
+
+.top-nav-links li {
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
