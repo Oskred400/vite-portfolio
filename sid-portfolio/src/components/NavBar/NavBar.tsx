@@ -1,5 +1,10 @@
 import './NavBar.css';
+
 export const NavBar = () => {
+  
+    const setPath = () => {
+
+    }
   return (
     <>
       <ul className="top-nav-links">

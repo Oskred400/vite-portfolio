@@ -25,3 +25,11 @@
     margin-right: -2vw;
     justify-content: space-evenly;
 }
+
+img {
+    padding-bottom: 2%;
+}
+
+.email-icon {
+    margin-left: 1.5vw;
+}
