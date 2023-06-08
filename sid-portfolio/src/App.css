@@ -1,7 +1,17 @@
 h1 {
-  margin-left: 10vw;
+  /* margin-left: 10vw; */
+  .intro-text {
+    font-size: xx-large;
+    font-weight: bold;
+    word-wrap: normal;
+}
 }
 
 .NavBar {
   width: 100%;
+}
+
+.introduction {
+  place-content: center;
+  display: grid;
 }
