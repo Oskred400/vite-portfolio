@@ -4,6 +4,9 @@ export const NavBar = () => {
     <>
       <ul className="top-nav-links">
         <li>
+          <a href="#Sid">Siddarth Kannan</a>
+        </li>
+        <li>
           <a href="#Home">Home</a>
         </li>
         <li>

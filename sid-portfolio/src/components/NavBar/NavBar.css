@@ -5,6 +5,9 @@
     min-height: 10%;
     justify-content: space-around;
     place-items: center;
+    border-radius: 5px;
+    margin-top: 0;
+    list-style: none;
 }
 
 .top-nav-links li {
