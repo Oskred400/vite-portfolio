@@ -1,13 +1,15 @@
 .top-nav-links {
     display: flex;
-    min-width: 100%;
     background-color: #54a0ff;
-    min-height: 10%;
+    height: 5%;
     justify-content: space-around;
     place-items: center;
     border-radius: 5px;
     margin-top: 0;
     list-style: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .top-nav-links li {

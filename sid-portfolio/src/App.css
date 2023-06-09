@@ -1,7 +1,7 @@
 h1 {
   /* margin-left: 10vw; */
   .intro-text {
-    font-size: xx-large;
+    font-size: 25px;
     font-weight: bold;
     word-wrap: normal;
 }
@@ -12,6 +12,8 @@ h1 {
 }
 
 .introduction {
+  margin-top: 1vh;
+  padding: 1rem;
   place-content: center;
   display: grid;
 }
