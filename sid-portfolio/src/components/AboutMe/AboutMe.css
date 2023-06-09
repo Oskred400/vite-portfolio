@@ -17,10 +17,10 @@ h6 {
     margin-top: -1vh;   
 }
 
-p {
+.professional-summary {
     font-size: 25px;
     font-weight: 400;
     color: #707070; 
-    margin-top: -4vh;
+    margin-top: -5.5vh;
     text-align: center;   
 }
