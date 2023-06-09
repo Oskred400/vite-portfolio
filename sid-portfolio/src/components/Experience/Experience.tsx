@@ -4,7 +4,7 @@ export const Experience = () => {
     return (
         <>
         <div className='all-experiences'></div>
-            <div className='exp-heading'>
+            <div className='exp-heading' id="experience">
             <h1> Experience </h1>
             </div>
             <div className="work-exp">

@@ -1,31 +1,62 @@
 import './NavBar.css';
 
+import { Link, animateScroll as scroll } from "react-scroll";
+
 export const NavBar = () => {
   
-    const setPath = () => {
-
-    }
   return (
     <>
       <ul className="top-nav-links">
         <li>
-          <a href="#Home">Siddarth Kannan</a>
+        <Link 
+          activeClass="active"
+          to="intro-text-class"
+          spy={true}
+          smooth={true}
+        offset={-70}
+        duration={500}
+        > Siddarth Kannan</Link>
         </li>
         <li>
-          {/* href= {`/contacts/1`} */}
-          <a href="#Home">Home</a>
+        <Link 
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={true}
+        offset={-70}
+        duration={500}
+        > About</Link>
         </li>
         <li>
-          <a href="#About">About</a>
+        <Link 
+          activeClass="active"
+          to="skillsandcerts"
+          spy={true}
+          smooth={true}
+        offset={-70}
+        duration={500}
+        > Skills And Certs</Link>
+        
         </li>
         <li>
-          <a href="#SkillsAndCerts">Skills And Certs</a>
+        <Link 
+          activeClass="active"
+          to="experience"
+          spy={true}
+          smooth={true}
+        offset={-70}
+        duration={500}
+        > Experience </Link>
         </li>
         <li>
-          <a href="#Experience">Experience</a>
-        </li>
-        <li>
-          <a href="#Contact">Contact</a>
+         <Link
+        activeClass="active"
+        to="contact"
+          spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+        >Contact</Link> 
         </li>
       </ul>
     </>

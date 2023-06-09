@@ -6,7 +6,7 @@ export const AboutMe = () => {
     }
     return (
         <>
-            <div className="about-me">
+            <div className="about-me" id="about">
             <h2>About Me</h2>
             <p> Software Engineer | Software Developer </p>
             <button onClick={onResumeClick} > Resume </button>

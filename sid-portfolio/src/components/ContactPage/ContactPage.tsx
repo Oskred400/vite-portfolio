@@ -6,7 +6,7 @@ import GitHubLogo from '../../assets/images/github_logo.png';
 export const ContactPage = () => {
     return (
         <>
-        <div className="contact-page">
+        <div className="contact-page" id="contact">
             <h2> Let's Get in Touch! </h2>
             <div className="row">
             <div className="col-lg-4 ml-auto text-center">
