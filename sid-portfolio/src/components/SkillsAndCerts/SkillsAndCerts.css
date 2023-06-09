@@ -4,6 +4,11 @@ h1 {
     text-decoration: underline;
 }
 
+.skill-set {
+    display: grid;
+    place-items: center;
+}
+
 .skills-list {
     display: flex;
     flex-direction: row;
@@ -26,4 +31,5 @@ h1 {
 
 .certs-list h2 {
     color: #707070;
+    text-decoration: underline;
 }

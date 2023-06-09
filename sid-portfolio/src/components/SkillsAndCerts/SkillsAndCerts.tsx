@@ -3,7 +3,9 @@ import "./SkillsAndCerts.css";
 export const SkillsAndCerts = () => {
   return (
     <>
+    <div className="skill-set">
       <h1> Skills </h1>
+      </div>
       <div className="skills-list">
         <div className="menu-item">
           Languages
@@ -40,9 +42,12 @@ export const SkillsAndCerts = () => {
           </ul>
         </div>
       </div>
+      
       <div className="certs-list">
         <h2> Certifications </h2>
         <h3>AWS CLF CCP</h3>
+        <h3>Java - Hackerrank and TestDome Skill Assessment</h3>
+        <h3>Python - Hackerrank and TestDome Skill Assessment</h3>
       </div>
     </>
   );
