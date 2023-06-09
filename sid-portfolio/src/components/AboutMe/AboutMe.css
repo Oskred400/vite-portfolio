@@ -10,9 +10,17 @@ h2 {
     color: white;
 }
 
-p {
+h6 {
     font-size: xx-large;
     font-weight: 600;
     color: #fff; 
     margin-top: -1vh;   
+}
+
+p {
+    font-size: 25px;
+    font-weight: 400;
+    color: #707070; 
+    margin-top: -4vh;
+    text-align: center;   
 }
