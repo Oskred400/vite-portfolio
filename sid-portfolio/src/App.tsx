@@ -1,6 +1,7 @@
 import './App.css'
 import { AboutMe } from './components/AboutMe/AboutMe'
 import { ContactPage } from './components/ContactPage/ContactPage'
+import { Experience } from './components/Experience/Experience'
 import { NavBar } from './components/NavBar/NavBar'
 import { SkillsAndCerts } from './components/SkillsAndCerts/SkillsAndCerts'
 
@@ -16,6 +17,7 @@ function App() {
       <title>Sid's Portfolio </title>
       <AboutMe/>
       <SkillsAndCerts/>
+      <Experience/>
       <ContactPage/>
     </>
   )
