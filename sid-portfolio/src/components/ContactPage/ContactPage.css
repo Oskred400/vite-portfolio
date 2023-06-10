@@ -15,7 +15,7 @@
     color: #fff;
     display: grid;
     place-items: center;
-    height: 30%;
+    height: 20%;
 }
 
 .row {
@@ -57,7 +57,7 @@ p {
         color: #fff;
         display: grid;
         place-items: center;
-        height: 30%;
+        height: 20%;
     }
     
     .row {

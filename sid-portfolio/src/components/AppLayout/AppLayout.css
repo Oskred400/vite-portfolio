@@ -14,8 +14,9 @@ h1 {
   }
   
   .introduction {
-    margin-top: 1vh;
+    margin-top: 0.25vh;
     padding: 1rem;
+    padding-bottom: 0.25vh;
     /* place-content: center;
     display: grid; */
   }
