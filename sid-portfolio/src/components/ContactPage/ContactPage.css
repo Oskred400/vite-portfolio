@@ -33,3 +33,53 @@ img {
 .email-icon {
     margin-left: 1.5vw;
 }
+
+p {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 900px) {
+
+    .icons-list {
+        display: grid;
+        /* place-items: center; */
+        justify-content: space-evenly;
+        list-style: none;
+    }
+    
+    .icons-list li {
+        margin-right: 2vw;
+        margin-left: 2vw;
+    }
+    
+    .contact-page {
+        background-color: black;
+        color: #fff;
+        display: grid;
+        place-items: center;
+        height: 30%;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    img {
+        padding-bottom: 2%;
+    }
+    
+    .email-icon {
+        margin-left: 1.5vw;
+    }
+
+    
+p {
+    font-size: 3vh;
+}
+    
+    
+}
