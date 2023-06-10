@@ -8,7 +8,7 @@ export const SkillsAndCerts = () => {
       </div>
       <div className="skills-list">
         <div className="menu-item">
-          Languages
+          Programming Languages
           <ul>
             <li>Java</li>
             <li>Python</li>
@@ -17,7 +17,7 @@ export const SkillsAndCerts = () => {
           </ul>
         </div>
         <div className="menu-item">
-          Front End Technologies
+        Frontend Technologies
           <ul>
             <li>Angular</li>
             <li>ReactJs</li>
@@ -26,15 +26,15 @@ export const SkillsAndCerts = () => {
           </ul>
         </div>
         <div className="menu-item">
-          BackendTechnologies
+          Backend Technologies
           <ul>
-            <li>Java Springboot</li>
+            <li>Springboot</li>
             <li>Python3 Flask</li>
             <li>Nodejs</li>
           </ul>
         </div>
         <div className="menu-item">
-          Databases
+          Database Technologies
           <ul>
             <li> MySql</li>
             <li> PostGreSql</li>
