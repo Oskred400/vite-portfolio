@@ -1,3 +1,9 @@
 div#root {
     width: 100%;
 }
+
+@media screen and (max-width: 900px) {
+    div#root {
+        min-width: fit-content;
+    }
+}
