@@ -24,3 +24,11 @@
 .Experience {
   background-color: blue;
 } */
+
+@media screen and (max-width: 900px) {
+  .AppLayout {
+    display: grid;
+    place-items: center;
+    width: 100%;
+  }
+}
