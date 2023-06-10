@@ -25,7 +25,7 @@ export const ContactPage = () => {
                 <a href="https://github.com/Oskred400"><p>GitHub</p></a>
             </div>
 
-                </div>
+            </div>
             </div>
         </>
     );
