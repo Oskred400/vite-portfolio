@@ -3,7 +3,8 @@ import { ContactPage } from '../ContactPage/ContactPage'
 import { Experience } from '../Experience/Experience'
 import { NavBar } from '../NavBar/NavBar'
 import { SkillsAndCerts } from '../SkillsAndCerts/SkillsAndCerts';
-import './AppLayout.css'
+import './AppLayout.css';
+import ProfilePic from '../../assets/images/portfolio_site.jpeg';
 
 export const AppLayout = () => {
 
@@ -12,9 +13,10 @@ export const AppLayout = () => {
 
       <NavBar/>
       <div className="introduction" id="intro-text-class">
-        <h1 className="intro-text"> Hello World</h1>
-        <h1 className="intro-text">Meet Siddarth!</h1>
-      </div>
+        
+        <h1 className="intro-text"> Hello World, Meet Siddarth!</h1>
+        <img src={ProfilePic} height="100%" width="100%"/>
+        </div>
       <title>Sid's Portfolio </title>
       <AboutMe/>
       <SkillsAndCerts/>

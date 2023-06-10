@@ -4,6 +4,8 @@ h1 {
       font-size: 25px;
       font-weight: bold;
       word-wrap: normal;
+      z-index: 10;
+      margin-left: 1vw;
   }
   }
   
@@ -14,8 +16,8 @@ h1 {
   .introduction {
     margin-top: 1vh;
     padding: 1rem;
-    place-content: center;
-    display: grid;
+    /* place-content: center;
+    display: grid; */
   }
   
   .SkillsAndCerts {
@@ -24,4 +26,15 @@ h1 {
   }
   .Experience {
     background-color: blue;
+  }
+
+  .portfolio_img_class {
+    z-index: 1;
+  }
+
+  .introduction img {
+    padding: 0;
+    min-width: 100%;
+    min-height: 100%;
+    flex-shrink: 0;
   }
