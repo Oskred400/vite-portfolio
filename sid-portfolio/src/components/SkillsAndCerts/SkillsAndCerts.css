@@ -20,8 +20,16 @@ h1 {
     font-size: 25px;
 }
 
-.menu-item .ul {
+.menu-item ul {
     list-style: none;
+}
+
+.menu-item .ul li {
+    font-size:x-large;
+}
+
+.menu-item p{
+    font-size: xx-large;
 }
 
 .certs-list {
@@ -32,6 +40,11 @@ h1 {
 .certs-list h2 {
     color: #707070;
     text-decoration: underline;
+    font-size: xx-large;
+}
+
+.certs-list h3 {
+    font-size: x-large;
 }
 
 @media screen and (max-width:900px) {
@@ -56,7 +69,12 @@ h1 {
 
     .certs-list h2 {
         text-decoration: underline;
+        font-size: x-large;
      }
+
+     .certs-list h3 {
+        font-size: x-large;
+    }
 
 
      .skills-list .menu-item ul li {
@@ -70,5 +88,18 @@ h1 {
      .skills-list .menu-item:last-child {
             left: -2vw;
      }
+
+     .menu-item p{
+        font-size: xx-large;
+    }
+
+    .menu-item ul {
+        list-style: none;
+    }
+    
+    .menu-item .ul li {
+        font-size:x-large;
+    }
+    
 
 }

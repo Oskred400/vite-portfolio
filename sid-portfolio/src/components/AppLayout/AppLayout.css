@@ -1,4 +1,7 @@
 h1 {
+    text-decoration: none;
+      display: grid;
+      place-items: center;
     /* margin-left: 10vw; */
     .intro-text {
       font-size: 25px;
